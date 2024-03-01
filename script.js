@@ -1,3 +1,4 @@
+console.log('hellow from js file')
 document.addEventListener("DOMContentLoaded", function () {
         var imagePaths = ["images/canva-photo-editor-8-7.webp", "images/best-coding-languages-for-kids.jpeg", "images/chris-ried-ieic5Tq8YMk-unsplas_1200x768.avif", "images/how-to-start-coding-1.webp", "images/istockphoto-537331500-612x612.jpg", "images/MIT-Coding-Brain-01-press_0.jpg", "images/sc_1_olhp_786px.jpg", "images/pexels-markus-spiske-4439901.jpg"];
         var randomImagePath = imagePaths[Math.floor(Math.random() * imagePaths.length)];
